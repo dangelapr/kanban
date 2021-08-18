@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+h3 {
+    /* display: inline-block; */
+    /* width: 30%; */
+    /* text-align: center; */
+}
+  
+input {
+    height: 100px;
+    text-align: center;
+}
+  
+#new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+button {
+    display: block;
+    margin: 10px;
+}
+  
+#board {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    margin: 10px;
+    height: 100%;
+}
+  
+.do {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+} 
