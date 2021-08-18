@@ -1,16 +1,19 @@
 body {
     background-color: lightblue;
+    font-family: sans-serif;
 }
   
-h1 {
+.heading {
     text-align: center;
+    font-size: 50px;
+    margin: 20px;
 }
   
 h3 {
-    /* display: inline-block; */
-    /* width: 30%; */
-    /* text-align: center; */
-}
+    /* display: block; */
+    text-align: center;
+    padding: none;
+} 
   
 input {
     height: 100px;
@@ -24,7 +27,7 @@ input {
 }
   
 button {
-    display: block;
+    /* display: block; */
     margin: 10px;
 }
   
@@ -34,11 +37,22 @@ button {
     border: solid 1px;
     margin: 10px;
     height: 100%;
+    padding: 10px 0;
 }
   
-.do {
-    display: flex;
-    flex-direction: row;
+.block {
     width: 30%;
     justify-content: space-around;
+    height: 500px;
+    border: solid 1px;
+    margin: auto
 } 
+
+.task {
+    background-color: white;
+    margin: 0.2rem 0.2rem 0.3rem 0.2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.2rem 0.5rem 2rem;
+    height: 40px;
+}
