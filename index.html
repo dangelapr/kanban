@@ -16,19 +16,25 @@
             Digital Kanban Board
         </div>
 
-        <div id="new">
+        <!-- <div id="new">
             <input type="text" placeholder="write your new item here"></input>
             <button>
             Add
             </button>
-        </div>
+        </div> -->
 
+        <div class="description">
+            <p>welcome to your own digital kanban board. start by entering your task or to do item in a bubble under "To Do". Once you've begun qa task, drag and drop it into the "Doing" section. When you've completed the task, drag it into the "Done" section. we love productivity!!!</p>
+        </div>
+        
         <div id="board" class="flex-container">
             <div class="block" id="toDo">
                 <h3>
                     To Do
                 </h3>
-                <div class="task" id="task1">task 1</div>
+                
+                <div class="task" id="task1" draggable="true">task 1</div>
+                
                 <div class="task" id="task2">task 2</div>
                 <div class="task" id="task3">task 3</div>
                 <div class="task" id="task4">task 4</div>
@@ -47,9 +53,10 @@
             </div>  
         
         </div>
-        
+
     </div>
 
+    <script src="app.js"></script>
 </body>
 
 </html>
